@@ -1,0 +1,206 @@
+
+.main{
+    position: relative;
+    background-image: url('bg1.jpg');
+    
+    background-size: cover;
+    background-position: center;
+
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.header {
+
+
+    .header-subtitle {
+        font-family: cursive;
+        font: bold 40px;
+        color: #ff0000;
+        margin: 0;
+        -webkit-text-stroke:0.5px #000000;
+        box-shadow: 0 0 5px #000000;
+    }
+    
+    .header-title {
+        font: bold 60px roboto, sans-serif;
+        color: #ff0000;
+        margin: 0;
+        -webkit-text-stroke:1px #000000;
+        box-shadow: 0 0 5px #000000;
+        
+    }
+   
+    padding: 20px;
+    text-align: center;
+    font: bold 15px Arial, sans-serif;
+    color: #333;
+}
+.profile-image {
+    box-shadow: 0 0 10px #000000;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.profile-image img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+.education {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+
+.skills {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+.projects {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+.contact {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    color: #121212;
+    margin-top: 10px;
+}
+
+
+
+
+
+.hobbies {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5%;
+    border: 2px solid #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    color: #121212;
+    margin-top: 10px;
+}
+.education:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+}
+.skills:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+    color: #ffffff;
+}
+.hobbies:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+    color: #ffffff;
+}
+.projects:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+    color: rgb(255, 255, 255);
+}
+.education:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+    color: #ffffff;
+}
+.contact:hover {
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 0.2s, background-color 0.5s;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.header-subtitle:hover {
+    color: #ffff00;
+    transition: color 0.5s;
+    animation: pulse 1.5s infinite;
+    gap: 10px;
+}
+.header-title:hover {
+    color: #ffff00;
+    transition: color 0.5s;
+    animation: pulse 1.5s infinite;
+    gap: 10px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
